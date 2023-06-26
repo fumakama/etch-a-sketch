@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    color: aliceblue;
+    background-color: black;
+    flex-grow: 0;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+}
+
+#area {
+    width: 640px;
+    height: 640px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+}
+
+.cell {
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid black;
+}
+
+.blacked {
+    background-color: black;
+}
